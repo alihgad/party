@@ -1,0 +1,169 @@
+/* glopal rules */
+* {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+:root {
+  --main-bg-color: rgba(214, 46, 51, 0.6);
+  --font-color: #d62e33;
+}
+
+.text-main {
+  color: var(--font-color);
+}
+
+.bg-main {
+  background-color: var(--main-bg-color);
+}
+/* end global rules */
+
+/* nav */
+nav a {
+  text-decoration: none;
+  color:white;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+nav a:hover {
+  color: var(--font-color);
+}
+
+.cont {
+  width: 15% ;
+}
+/* end nav */
+
+/* home */
+header {
+  background-image: url(../imges/header.jpg);
+  background-size: cover;
+  background-position: center center;
+
+  & .inner {
+    top: 50%;
+    right: 45%;
+    transition: all  linear ;
+    -webkit-transition: all  linear ;
+    -moz-transition: all  linear ;
+    -ms-transition: all  linear ;
+    -o-transition: all  linear ;
+    cursor: pointer;
+}
+
+.fa-x{
+  cursor: pointer;
+
+}
+
+.fa-x:hover::before{
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+
+.fa-x:hover::before{
+  color :var(--font-color)
+
+}
+
+
+
+}
+
+.home { 
+  top: -10%;
+
+  & h1{
+    font-size: 3.6rem;
+  }
+}
+
+
+
+.burger{ 
+
+  
+  & span {
+  background-color: white;
+  width: 25px;
+  height: 3px;
+  margin-bottom: 7px;
+  display: block;
+
+}
+}
+
+/* end home */
+
+/* details */
+
+#details h3 {
+  cursor: pointer;
+}
+
+.cardion {
+  /* height: 0;*/
+  display: none;
+  background-color: #eee;
+  padding: 5px;
+}
+
+/* end details */
+
+/* counter */
+
+#counter {
+  background-image: url(../imges/counter.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/* end counter */
+
+/* join */
+#join a {
+  text-decoration: none;
+}
+#join .icon {
+  width: 40px;
+  height: 40px;
+  border: #989797 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+#join a:hover .icon {
+  background-color: var(--font-color);
+}
+#join a:hover .icon i {
+  color: white !important;
+}
+
+#join a .icon i {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.zorar {
+  background-color: var(--font-color) !important;
+  color: white !important;
+}
+
+/* end join */
