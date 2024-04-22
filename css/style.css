@@ -167,3 +167,14 @@ header {
 }
 
 /* end join */
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  #cardion{
+    width: 90% !important;
+  }
+}

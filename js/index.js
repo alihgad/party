@@ -24,7 +24,7 @@ $(`#details1`).slideDown();
 
 
 function calcDate() {
-    const partyDate = new Date("2024-02-17");
+    const partyDate = new Date("2025-02-17");
     const now = new Date();
     const deff = partyDate - now
     let days = Math.floor(deff / 1000 / 60 / 60 / 24)
@@ -56,10 +56,10 @@ $(".cont ul a").css({display : 'none'})
 
 
 $(".inner").click(function () {
-    $(this).animate({ right: '-55%' } )
-    $('.home').animate({ width: "75%"}, 400)
+    $(this).animate({ right: '-75%' } )
+    $('.home').animate({ width: "60%"}, 400)
     $('.home').addClass("end-0")
-    $(".cont").animate({width:'25%'} , 400)
+    $(".cont").animate({width:'30%'} , 400)
     $(".cont ul a").css({display : 'inline'})
 
 
